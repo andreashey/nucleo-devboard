@@ -1,0 +1,1356 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "7171c514-df99-445e-841b-bd147eed432a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 2.54 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
+				(at 2.54 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*TC2030*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_ARM_SWD_TagConnect_TC2030-NL_0_0"
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TMS" bidirectional line)
+				)
+				(pin open_collector line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TCK" output line)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "SWO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TDO" input line)
+				)
+			)
+			(symbol "Conn_ARM_SWD_TagConnect_TC2030-NL_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 109.22 109.22) (xy 127 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05acf58f-e75b-44eb-ad19-42801db63e32")
+	)
+	(wire
+		(pts
+			(xy 109.22 71.12) (xy 127 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071a6d95-4f97-498d-a2f5-84f869049680")
+	)
+	(wire
+		(pts
+			(xy 109.22 40.64) (xy 127 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e9fb32-5a39-4387-8c99-51e8624f0e07")
+	)
+	(wire
+		(pts
+			(xy 109.22 73.66) (xy 127 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c17417f-e9b1-43c1-b535-7640f48d1623")
+	)
+	(wire
+		(pts
+			(xy 109.22 115.57) (xy 127 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30694b88-4629-429a-be93-5adf14b533e0")
+	)
+	(wire
+		(pts
+			(xy 109.22 38.1) (xy 127 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b56a32-534d-4462-853c-88f4c6aa13ce")
+	)
+	(wire
+		(pts
+			(xy 109.22 35.56) (xy 127 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7be642-9e53-4852-9802-c57f5ec50bf8")
+	)
+	(wire
+		(pts
+			(xy 109.22 43.18) (xy 127 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a66cc0-adce-43f3-aa07-e1c5ccfacb9a")
+	)
+	(wire
+		(pts
+			(xy 109.22 55.88) (xy 127 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e58e560-277b-4064-870a-eb930545ca9f")
+	)
+	(wire
+		(pts
+			(xy 109.22 53.34) (xy 127 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785ceb63-1dce-4cad-8a98-310d7181b8a3")
+	)
+	(wire
+		(pts
+			(xy 109.22 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "824a16b4-4bc2-4f54-b815-a76565ead703")
+	)
+	(wire
+		(pts
+			(xy 109.22 76.2) (xy 127 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83198dfa-42c9-47fa-a1a1-059e2d9d68de")
+	)
+	(wire
+		(pts
+			(xy 109.22 78.74) (xy 127 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8330ae72-bf68-48f8-87c1-14e1b7dad00f")
+	)
+	(wire
+		(pts
+			(xy 109.22 91.44) (xy 127 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf010ff-4963-45bb-8379-a7470ae0c1a9")
+	)
+	(wire
+		(pts
+			(xy 109.22 83.82) (xy 127 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e2a2759-215a-4e9c-acba-7ed95c778033")
+	)
+	(wire
+		(pts
+			(xy 109.22 68.58) (xy 127 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96c5e7f0-fa7b-4769-836d-0a53ac945046")
+	)
+	(wire
+		(pts
+			(xy 109.22 96.52) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa8e7fe-0338-41df-ad43-7ef1cf6ad92a")
+	)
+	(wire
+		(pts
+			(xy 109.22 118.11) (xy 127 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b090b92-6141-439e-a105-8e0d87269cc7")
+	)
+	(wire
+		(pts
+			(xy 109.22 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4b30dd-9a97-4e3d-be7c-e7633d352339")
+	)
+	(wire
+		(pts
+			(xy 109.22 60.96) (xy 127 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1299b0-fff4-4fdf-85a5-5e3406dc0e90")
+	)
+	(wire
+		(pts
+			(xy 109.22 63.5) (xy 127 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a30fb963-926e-4c77-a9ab-164d7cda7b2d")
+	)
+	(wire
+		(pts
+			(xy 109.22 111.76) (xy 127 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf7d9c1-41f1-46d9-844a-df8f9252be99")
+	)
+	(wire
+		(pts
+			(xy 109.22 86.36) (xy 127 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5e30c4-c4ff-455b-a457-ef913456e28d")
+	)
+	(wire
+		(pts
+			(xy 109.22 129.54) (xy 127 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcdb9a1a-c4e7-4144-972e-118617fb59ce")
+	)
+	(wire
+		(pts
+			(xy 109.22 45.72) (xy 127 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f9811e-5e4a-4e0b-9e5d-be9b560946ca")
+	)
+	(wire
+		(pts
+			(xy 109.22 104.14) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf567aed-2b82-4ef7-a86c-ee6dc122cdb1")
+	)
+	(wire
+		(pts
+			(xy 109.22 124.46) (xy 127 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d736b5a9-85a8-4ad3-8739-f7dadb8ab5df")
+	)
+	(wire
+		(pts
+			(xy 109.22 121.92) (xy 127 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfb385f5-b2ab-45a2-9577-8547fefc7931")
+	)
+	(wire
+		(pts
+			(xy 109.22 50.8) (xy 127 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ad730b-fd06-475a-a179-09367d324f52")
+	)
+	(wire
+		(pts
+			(xy 109.22 93.98) (xy 127 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6192cb2-9075-4a51-8b66-73101719b148")
+	)
+	(symbol
+		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL")
+		(at 273.05 151.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00a6d9b2-57e8-4d42-b7bc-89055df4ce9d")
+		(property "Reference" "J2"
+			(at 279.4 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
+			(at 279.4 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+			(at 273.05 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+			(at 273.05 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+			(at 273.05 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5804e9a9-3cf0-4b86-8a3b-867352e4f377")
+		)
+		(pin "1"
+			(uuid "a340d013-9a79-4556-b7c7-6b306d98294f")
+		)
+		(pin "2"
+			(uuid "cbddd2b6-3e56-425f-994c-2ac93389e7cb")
+		)
+		(pin "5"
+			(uuid "d6e158f8-595b-41ac-8e46-7f1fdef5e2d5")
+		)
+		(pin "6"
+			(uuid "6e9ec22e-1b60-40bc-9e41-3ce6e8c8e370")
+		)
+		(pin "4"
+			(uuid "e89ca757-7727-4a34-88d2-a012558f0cc9")
+		)
+		(instances
+			(project "kiCad_test"
+				(path "/4250c3cc-f8c5-441a-9e80-e89bb6ada756"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 32.385)
+		(size 30.48 102.235)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "77213db3-d061-4eb8-a107-9e1bca2752d0")
+		(property "Sheetname" "MCU"
+			(at 127 31.6734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 127 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_BRAKE" input
+			(at 127 35.56 180)
+			(uuid "2b4ad498-6b5e-4422-ab87-044b9ed54ed3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_LIFT_A" input
+			(at 127 38.1 180)
+			(uuid "fb7b15b8-ed85-4009-991d-8550822c802a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_STEER_A" input
+			(at 127 40.64 180)
+			(uuid "eef243c5-e608-495f-9459-f8e2f3a45602")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_THROTTLE_A" input
+			(at 127 43.18 180)
+			(uuid "e1b07ccd-9a07-4440-87f8-0d2a6f9e6153")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_TILT_A" input
+			(at 127 45.72 180)
+			(uuid "c4558a82-7f49-4fca-b9f4-fe306e67674a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_CDC" input
+			(at 127 71.12 180)
+			(uuid "a4f01a0b-985d-4833-a425-e2f5e7eeb9be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_FNR_F" input
+			(at 127 73.66 180)
+			(uuid "833f0dfd-c488-43c9-b8ea-d512a8ec9d5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_FNR_R" input
+			(at 127 76.2 180)
+			(uuid "fe69ef80-b5fc-4426-aeaf-3e9168b8c353")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_KICK" input
+			(at 127 78.74 180)
+			(uuid "052c485b-35bf-40d8-98bc-8c6664740c9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E5V" input
+			(at 127 129.54 180)
+			(uuid "a3a68824-2922-4964-b0b8-5daaee3b4a4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_ARMREST" output
+			(at 127 83.82 180)
+			(uuid "9a88022e-19b8-4674-8e17-2014dc5c06ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_CDC" output
+			(at 127 86.36 180)
+			(uuid "3f115e29-31fb-4b30-9f6f-17ec243a7964")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_FNR_F" output
+			(at 127 88.9 180)
+			(uuid "bd50cf24-eb9b-4d09-8c9f-12f2c2bfa5e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_FNR_R" output
+			(at 127 91.44 180)
+			(uuid "29efcd9b-650c-407e-b9c2-dc62ab0ae289")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_KICK" output
+			(at 127 93.98 180)
+			(uuid "2cd1bc80-f100-4efe-925e-03eb7850cea0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_PARK_N" output
+			(at 127 96.52 180)
+			(uuid "2aaa4ff3-d828-4098-8345-b40ed5361100")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FDCAN2_TX" output
+			(at 127 115.57 180)
+			(uuid "d2e1ed79-aa1c-46c9-a480-a3404fa1976c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FD_CAN1_RX" input
+			(at 127 109.22 180)
+			(uuid "9ffd4122-9900-4d1d-82a1-c1f3025dcf6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FD_CAN1_TX" output
+			(at 127 111.76 180)
+			(uuid "cacdfe7e-503e-4791-a431-9f5fcdbf4244")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FD_CAN2_RX" input
+			(at 127 118.11 180)
+			(uuid "a8e475f4-b30e-4e9b-ab4d-da72a9fbbd8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FD_CAN3_RX" input
+			(at 127 121.92 180)
+			(uuid "c1bf93fd-9d43-469a-9d9e-a8689cda3318")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FD_CAN3_TX" output
+			(at 127 124.46 180)
+			(uuid "333ffcd3-5a61-49f2-8f8f-55d079f881a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL" output
+			(at 127 101.6 180)
+			(uuid "e8e4c1ec-118d-4907-8324-8102895c0de3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 127 104.14 180)
+			(uuid "179dc1f9-2883-41ef-b47c-31e9163f464a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LDAC_LIFT_TILT" output
+			(at 127 50.8 180)
+			(uuid "ef6bce2d-4ad9-4e07-af55-72d2950babee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LDAC_STEER" output
+			(at 127 53.34 180)
+			(uuid "443952e3-aaa2-4e89-8d9a-d7b10a6b1721")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LDAC_THROTTLE" output
+			(at 127 55.88 180)
+			(uuid "e6989db3-f5e2-49d2-94c8-2ae9d3dfde02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_BRAKE" output
+			(at 127 60.96 180)
+			(uuid "bdb7aafa-7da9-4247-8469-40b4f7d1e80a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SEL_INJECT" output
+			(at 127 63.5 180)
+			(uuid "a9482669-33f0-49ed-83d0-d99e5e921c93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SNS_ARMREST" input
+			(at 127 68.58 180)
+			(uuid "1f353e21-89c2-49c1-8ab8-abce650f6e66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "kiCad_test"
+				(path "/4250c3cc-f8c5-441a-9e80-e89bb6ada756"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 31.75)
+		(size 26.67 102.87)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "efc71200-c1f1-4416-af3f-64aa829b37a9")
+		(property "Sheetname" "Morpho connector"
+			(at 82.55 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Morpho.kicad_sch"
+			(at 82.55 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_BRAKE" output
+			(at 109.22 35.56 0)
+			(uuid "1fc8217b-edc7-4a75-a00c-05c72395ca8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_LIFT_A" output
+			(at 109.22 38.1 0)
+			(uuid "6b4cbfe5-41c5-4aae-8e51-1bc88c1c00c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_STEER_A" output
+			(at 109.22 40.64 0)
+			(uuid "bcae2cac-d846-4b7e-ae0b-4c5afc178a71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_THROTTLE_A" output
+			(at 109.22 43.18 0)
+			(uuid "3b72d064-783b-4cee-9f86-5f8a2e8e22cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_TILT_A" output
+			(at 109.22 45.72 0)
+			(uuid "b8aca5bc-bf8d-4d12-915d-5b4727107c65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN1_RX" output
+			(at 109.22 109.22 0)
+			(uuid "a2d571dd-e418-43ac-acf3-bd977f83fc58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN1_TX" input
+			(at 109.22 111.76 0)
+			(uuid "a2815a5b-1c32-4fac-a40f-6491c468ce6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN2_RX" output
+			(at 109.22 115.57 0)
+			(uuid "15748cd4-eecf-4428-b0df-0280354d40d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN2_TX" input
+			(at 109.22 118.11 0)
+			(uuid "2d8b7766-4e86-4858-810e-3f022c928036")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN3_RX" output
+			(at 109.22 121.92 0)
+			(uuid "1899afe2-1505-43db-a96c-972021f5a8c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN3_TX" input
+			(at 109.22 124.46 0)
+			(uuid "200119f0-e95c-4ae5-baea-555d0f9559e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DI_ARMREST" output
+			(at 109.22 68.58 0)
+			(uuid "2643b43e-c385-4bba-b52f-a81b9dfdbb3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DI_CDC" output
+			(at 109.22 71.12 0)
+			(uuid "71057b5a-7e5e-4523-b9da-10b904b73ecc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DI_FNR_F" output
+			(at 109.22 73.66 0)
+			(uuid "1cd8984e-a4d9-49ba-b853-b7966db6170f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DI_FNR_R" output
+			(at 109.22 76.2 0)
+			(uuid "2af4d086-231a-456c-a305-a7570ea69a5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DI_KICK" output
+			(at 109.22 78.74 0)
+			(uuid "67a56966-c786-491a-b7f7-a0ad585debd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN_ARMREST" input
+			(at 109.22 83.82 0)
+			(uuid "00b81e68-2d31-4e34-9d4e-2a4b0296e8fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN_CDC" input
+			(at 109.22 86.36 0)
+			(uuid "538a7cc2-5f97-4301-b464-0fbcc9092b8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN_FNR_F" input
+			(at 109.22 88.9 0)
+			(uuid "cf921f4d-5e05-42ab-9317-7f4c38d2f8a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN_FNR_R" input
+			(at 109.22 91.44 0)
+			(uuid "8cb7db2d-63da-4805-ad94-58258f74d0b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN_KICK" input
+			(at 109.22 93.98 0)
+			(uuid "eaac2fed-4abc-4b13-a628-486bfe57b3db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN_PARK_N" input
+			(at 109.22 96.52 0)
+			(uuid "d56ae771-31e4-4ee5-bf70-f603c6536178")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C3_SCL" input
+			(at 109.22 101.6 0)
+			(uuid "fdcc9ee3-77eb-42e3-b09c-7c3253e265b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C3_SDA" bidirectional
+			(at 109.22 104.14 0)
+			(uuid "420ed23c-a808-4128-98e2-d0b040566da1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LDAC_LIFT_TILT" input
+			(at 109.22 50.8 0)
+			(uuid "b6df32be-a18e-435c-bf39-b4139190119f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LDAC_STEER" input
+			(at 109.22 53.34 0)
+			(uuid "b23c51e3-5485-4734-a587-b2405cf86a14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LDAC_THROTTLE" input
+			(at 109.22 55.88 0)
+			(uuid "b6f3f96b-ab44-4c1d-97d2-33d75cce7b86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_BRAKE" input
+			(at 109.22 60.96 0)
+			(uuid "4b29e00f-00b8-4565-991d-7aee69bfacc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SEL_INJECT" input
+			(at 109.22 63.5 0)
+			(uuid "e7e677a8-d0ef-4e79-8a05-8a61286be5da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E5V" output
+			(at 109.22 129.54 0)
+			(uuid "4b2fa0df-79bb-40a6-a8d9-de59c30256ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "kiCad_test"
+				(path "/4250c3cc-f8c5-441a-9e80-e89bb6ada756"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.875 153.67)
+		(size 24.13 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f96857c6-899b-4698-91e6-7bf33a1392a1")
+		(property "Sheetname" "Power"
+			(at 15.875 152.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 15.875 191.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kiCad_test"
+				(path "/4250c3cc-f8c5-441a-9e80-e89bb6ada756"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
