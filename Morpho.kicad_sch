@@ -3078,7 +3078,7 @@
 			(uuid "7236da43-56a6-4e20-83bf-dd168e50029d")
 		)
 		(instances
-			(project "kiCad_test"
+			(project "Nucleo_devboard"
 				(path "/4250c3cc-f8c5-441a-9e80-e89bb6ada756/efc71200-c1f1-4416-af3f-64aa829b37a9"
 					(reference "#PWR053")
 					(unit 1)
@@ -3525,7 +3525,7 @@
 			(uuid "06ad0c43-b70e-47ac-a763-49cfafe77b3a")
 		)
 		(instances
-			(project "kiCad_test"
+			(project "Nucleo_devboard"
 				(path "/4250c3cc-f8c5-441a-9e80-e89bb6ada756/efc71200-c1f1-4416-af3f-64aa829b37a9"
 					(reference "U4")
 					(unit 2)
@@ -3602,7 +3602,7 @@
 			(uuid "9c73e34b-42e6-4751-a991-050d0587aaf4")
 		)
 		(instances
-			(project "kiCad_test"
+			(project "Nucleo_devboard"
 				(path "/4250c3cc-f8c5-441a-9e80-e89bb6ada756/efc71200-c1f1-4416-af3f-64aa829b37a9"
 					(reference "#FLG04")
 					(unit 1)
@@ -3680,7 +3680,7 @@
 			(uuid "a1947107-ecd7-4b80-a90c-2d2ffcfe8369")
 		)
 		(instances
-			(project "kiCad_test"
+			(project "Nucleo_devboard"
 				(path "/4250c3cc-f8c5-441a-9e80-e89bb6ada756/efc71200-c1f1-4416-af3f-64aa829b37a9"
 					(reference "#PWR012")
 					(unit 1)
@@ -3758,7 +3758,7 @@
 			(uuid "dcf0c88c-307f-4845-9144-d95512dfb435")
 		)
 		(instances
-			(project "kiCad_test"
+			(project "Nucleo_devboard"
 				(path "/4250c3cc-f8c5-441a-9e80-e89bb6ada756/efc71200-c1f1-4416-af3f-64aa829b37a9"
 					(reference "#PWR011")
 					(unit 1)
@@ -3837,7 +3837,7 @@
 			(uuid "538c8c8e-9fbb-4319-b51b-d23ac8af437d")
 		)
 		(instances
-			(project "kiCad_test"
+			(project "Nucleo_devboard"
 				(path "/4250c3cc-f8c5-441a-9e80-e89bb6ada756/efc71200-c1f1-4416-af3f-64aa829b37a9"
 					(reference "#PWR014")
 					(unit 1)
@@ -3915,7 +3915,7 @@
 			(uuid "19252faa-9638-466f-bb69-573e70c56999")
 		)
 		(instances
-			(project "kiCad_test"
+			(project "Nucleo_devboard"
 				(path "/4250c3cc-f8c5-441a-9e80-e89bb6ada756/efc71200-c1f1-4416-af3f-64aa829b37a9"
 					(reference "#PWR015")
 					(unit 1)
@@ -3992,7 +3992,7 @@
 			(uuid "5cbdc3af-22ca-4882-8de5-b9bb8b40ce22")
 		)
 		(instances
-			(project "kiCad_test"
+			(project "Nucleo_devboard"
 				(path "/4250c3cc-f8c5-441a-9e80-e89bb6ada756/efc71200-c1f1-4416-af3f-64aa829b37a9"
 					(reference "#FLG05")
 					(unit 1)
@@ -4070,7 +4070,7 @@
 			(uuid "832a1c73-7cbf-4d13-85ce-d49bb96fdf0c")
 		)
 		(instances
-			(project "kiCad_test"
+			(project "Nucleo_devboard"
 				(path "/4250c3cc-f8c5-441a-9e80-e89bb6ada756/efc71200-c1f1-4416-af3f-64aa829b37a9"
 					(reference "#PWR010")
 					(unit 1)
@@ -4517,7 +4517,7 @@
 			(uuid "62b80f9a-25f3-4615-8c6c-7b4e232f8878")
 		)
 		(instances
-			(project "kiCad_test"
+			(project "Nucleo_devboard"
 				(path "/4250c3cc-f8c5-441a-9e80-e89bb6ada756/efc71200-c1f1-4416-af3f-64aa829b37a9"
 					(reference "U4")
 					(unit 1)

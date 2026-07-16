@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -140,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -203,7 +209,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.25,
+        0.3,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +241,24 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -488,7 +516,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "kiCad_test.kicad_pro",
+    "filename": "Nucleo_devboard.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -643,18 +671,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "pcb.kicad_sch",
-        "name": "PCB",
+        "filename": "Nucleo_devboard.kicad_sch",
+        "name": "Nucleo_devboard",
         "uuid": "4250c3cc-f8c5-441a-9e80-e89bb6ada756"
       }
     ],
-    "used_designators": "#FLG4-5,#PWR10-16,#PWR53,U4",
+    "used_designators": "U2,#PWR19,#PWR24,D1,D6,R14-15,J6",
     "variants": []
   },
   "sheets": [
     [
       "4250c3cc-f8c5-441a-9e80-e89bb6ada756",
-      "PCB"
+      "Nucleo_devboard"
     ],
     [
       "77213db3-d061-4eb8-a107-9e1bca2752d0",
@@ -663,10 +691,6 @@
     [
       "8e59bdea-9cde-4984-b95a-5aa3aacb9574",
       "USB"
-    ],
-    [
-      "f96857c6-899b-4698-91e6-7bf33a1392a1",
-      "Power"
     ],
     [
       "efc71200-c1f1-4416-af3f-64aa829b37a9",
