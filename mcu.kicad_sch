@@ -5295,6 +5295,12 @@
 		(uuid "434ef8c4-9bb6-4b94-8310-a0cc51675b3c")
 	)
 	(junction
+		(at 92.71 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4722455f-298a-46b1-9b36-42fcd579d840")
+	)
+	(junction
 		(at 54.61 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5461,12 +5467,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecab76e4-3a1a-42b7-ac67-c1a10a398475")
-	)
-	(junction
-		(at 92.71 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef9580d0-00e3-46dd-921c-ca2284b19f40")
 	)
 	(junction
 		(at 262.89 130.81)
@@ -5752,7 +5752,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 152.4) (xy 96.52 152.4)
+			(xy 88.9 152.4) (xy 92.71 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6742,16 +6742,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 152.4) (xy 92.71 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d30750bd-2fd0-42c7-acab-f76c4ced647a")
-	)
-	(wire
-		(pts
 			(xy 78.74 50.8) (xy 78.74 49.53)
 		)
 		(stroke
@@ -6829,6 +6819,16 @@
 			(type default)
 		)
 		(uuid "dc4bd6b6-ffae-41f0-9d2d-d6d06811253b")
+	)
+	(wire
+		(pts
+			(xy 92.71 152.4) (xy 96.52 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc5a75fc-77f3-4c83-a7de-305b56142c4d")
 	)
 	(wire
 		(pts
@@ -14000,6 +14000,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 92.71 152.4 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98962446-d720-4b4b-ae5a-45e8e1660d73")
+		(property "Reference" "#PWR058"
+			(at 92.71 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 92.71 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 92.71 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c84da58b-7ae1-46ff-9edf-27bd29162617")
+		)
+		(instances
+			(project "Nucleo_devboard"
+				(path "/4250c3cc-f8c5-441a-9e80-e89bb6ada756/77213db3-d061-4eb8-a107-9e1bca2752d0"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "tinynav:M20-9990246")
 		(at 44.45 52.07 270)
 		(unit 1)
@@ -16197,84 +16275,6 @@
 			(project "Nucleo_devboard"
 				(path "/4250c3cc-f8c5-441a-9e80-e89bb6ada756/77213db3-d061-4eb8-a107-9e1bca2752d0"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 92.71 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0aa20c5-82ca-4486-9dbf-b6d7ae5c60c9")
-		(property "Reference" "#PWR06"
-			(at 92.71 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bec121ac-34c4-454a-a117-df5cf8446525")
-		)
-		(instances
-			(project "Nucleo_devboard"
-				(path "/4250c3cc-f8c5-441a-9e80-e89bb6ada756/77213db3-d061-4eb8-a107-9e1bca2752d0"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
