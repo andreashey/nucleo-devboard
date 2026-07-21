@@ -37,6 +37,26 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 53.975) (xy 168.91 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11639392-6b12-4eac-ae2f-cc6c0717b66e")
+	)
+	(wire
+		(pts
+			(xy 157.48 38.1) (xy 168.91 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14719820-4f2c-413e-9530-436fb253e7ac")
+	)
+	(wire
+		(pts
 			(xy 109.22 40.64) (xy 127 40.64)
 		)
 		(stroke
@@ -387,6 +407,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 40.64) (xy 168.91 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f604451b-e214-4b3b-9d38-3910c9db8436")
+	)
+	(wire
+		(pts
 			(xy 109.22 93.98) (xy 127 93.98)
 		)
 		(stroke
@@ -487,7 +517,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "77213db3-d061-4eb8-a107-9e1bca2752d0")
-		(property "Sheetname" "MCU"
+		(property "Sheetname" "MCU 1"
 			(at 127 31.6734 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -839,6 +869,16 @@
 				(justify right)
 			)
 		)
+		(pin "MCU2_rst" input
+			(at 157.48 53.975 0)
+			(uuid "62fd6915-0e76-488f-9e2a-1f2f9a1824d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Nucleo_devboard"
 				(path "/4250c3cc-f8c5-441a-9e80-e89bb6ada756"
@@ -915,7 +955,7 @@
 	)
 	(sheet
 		(at 168.91 31.75)
-		(size 34.29 35.56)
+		(size 18.415 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -941,7 +981,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu_2.kicad_sch"
-			(at 168.91 67.8946 0)
+			(at 168.91 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -949,6 +989,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "RST_button" output
+			(at 168.91 53.975 180)
+			(uuid "dc3dcbc8-14f5-464a-afe2-d2be65d0b1c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART3_RX" input
+			(at 168.91 38.1 180)
+			(uuid "cbde69e3-35b3-4b78-af4d-baa534319ae3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART3_TX" output
+			(at 168.91 40.64 180)
+			(uuid "7d478453-44fd-4599-9bcc-15e2c7c1bdf9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

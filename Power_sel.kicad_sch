@@ -2373,7 +2373,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BAT60JFILM"
+		(property "Value" "BAT60A"
 			(at 109.22 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3301,7 +3301,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BAT60JFILM"
+		(property "Value" "BAT60A"
 			(at 91.44 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)

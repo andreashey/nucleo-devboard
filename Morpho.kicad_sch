@@ -3030,7 +3030,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 131.318 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)

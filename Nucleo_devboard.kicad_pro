@@ -60,12 +60,12 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.3,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.12,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -708,7 +708,7 @@
         "uuid": "4250c3cc-f8c5-441a-9e80-e89bb6ada756"
       }
     ],
-    "used_designators": "J2,D7-8,#PWR29-33,#PWR63,SW1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -726,7 +726,7 @@
     ],
     [
       "77213db3-d061-4eb8-a107-9e1bca2752d0",
-      "MCU"
+      "MCU 1"
     ],
     [
       "baf5d7d0-ff4f-4de6-b130-7faf308e626b",
