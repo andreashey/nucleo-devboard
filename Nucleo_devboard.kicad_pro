@@ -76,12 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "starved_thermal|134987500|90300000|3d34dc7b-b240-4570-bb40-c973f6a7aece|a665dab2-fc07-4ee3-8358-0ce6f4dca756|F.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -131,7 +126,7 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -713,7 +708,7 @@
         "uuid": "4250c3cc-f8c5-441a-9e80-e89bb6ada756"
       }
     ],
-    "used_designators": "#PWR58",
+    "used_designators": "J2,D7-8,#PWR29-33,#PWR63,SW1",
     "variants": []
   },
   "sheets": [
@@ -722,16 +717,24 @@
       "Nucleo_devboard"
     ],
     [
-      "77213db3-d061-4eb8-a107-9e1bca2752d0",
-      "MCU"
-    ],
-    [
-      "8e59bdea-9cde-4984-b95a-5aa3aacb9574",
-      "USB"
+      "b44e4b98-b890-48d2-b758-cee07234a0bd",
+      "Power"
     ],
     [
       "efc71200-c1f1-4416-af3f-64aa829b37a9",
       "Morpho connector"
+    ],
+    [
+      "77213db3-d061-4eb8-a107-9e1bca2752d0",
+      "MCU"
+    ],
+    [
+      "baf5d7d0-ff4f-4de6-b130-7faf308e626b",
+      "MCU 2"
+    ],
+    [
+      "0682989f-1baf-459e-b0ed-fe1064436fe6",
+      "USB"
     ]
   ],
   "text_variables": {},
