@@ -471,7 +471,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
@@ -584,7 +584,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -708,7 +708,7 @@
         "uuid": "4250c3cc-f8c5-441a-9e80-e89bb6ada756"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR36,D3,D9,D12,R19",
     "variants": []
   },
   "sheets": [
