@@ -1405,7 +1405,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "tinynav:M20-9990246"
+		(symbol "tinynav:jumper_header"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1425,7 +1425,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "M20-9990246"
+			(property "Value" "jumper_header"
 				(at -5.08 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1436,7 +1436,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "tinynav:HARWIN_M20-9990246"
+			(property "Footprint" "tinynav:jumper_header"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1518,7 +1518,7 @@
 					(justify bottom)
 				)
 			)
-			(symbol "M20-9990246_0_0"
+			(symbol "jumper_header_0_0"
 				(rectangle
 					(start -3.81 -2.54)
 					(end 5.08 5.08)
@@ -2525,7 +2525,7 @@
 		)
 	)
 	(symbol
-		(lib_id "tinynav:M20-9990246")
+		(lib_id "tinynav:jumper_header")
 		(at 86.36 85.09 270)
 		(unit 1)
 		(body_style 1)
@@ -2557,7 +2557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "tinynav:HARWIN_M20-9990246"
+		(property "Footprint" "tinynav:jumper_header"
 			(at 86.36 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2981,7 +2981,7 @@
 		)
 	)
 	(symbol
-		(lib_id "tinynav:M20-9990246")
+		(lib_id "tinynav:jumper_header")
 		(at 104.14 85.09 270)
 		(unit 1)
 		(body_style 1)
@@ -3013,7 +3013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "tinynav:HARWIN_M20-9990246"
+		(property "Footprint" "tinynav:jumper_header"
 			(at 104.14 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3520,7 +3520,7 @@
 		)
 	)
 	(symbol
-		(lib_id "tinynav:M20-9990246")
+		(lib_id "tinynav:jumper_header")
 		(at 181.61 73.66 270)
 		(unit 1)
 		(body_style 1)
@@ -3552,7 +3552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "tinynav:HARWIN_M20-9990246"
+		(property "Footprint" "tinynav:jumper_header"
 			(at 181.61 73.66 0)
 			(hide yes)
 			(show_name no)

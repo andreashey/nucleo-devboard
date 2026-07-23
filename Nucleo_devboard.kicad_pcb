@@ -5901,7 +5901,7 @@
 			)
 		)
 	)
-	(footprint "tinynav:HARWIN_M20-9990246"
+	(footprint "tinynav:jumper_header"
 		(layer "F.Cu")
 		(uuid "49811a94-aa3b-4264-9321-083bfe7f0766")
 		(at 165.8 82.4)
@@ -6179,7 +6179,7 @@
 			(uuid "f51300e5-cb95-41d3-b9d6-35176076c3a2")
 		)
 		(embedded_fonts no)
-		(model "../../libs/3dmodels/M20-9990246.step"
+		(model "../../libs/3dmodels/jumper_header.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7084,7 +7084,7 @@
 			)
 		)
 	)
-	(footprint "tinynav:HARWIN_M20-9990246"
+	(footprint "tinynav:jumper_header"
 		(layer "F.Cu")
 		(uuid "54a3ae40-70d2-44ec-8f5e-c1c6b227c2ba")
 		(at 159.150001 135.235 -90)
@@ -7363,7 +7363,7 @@
 			(uuid "359d5d85-d8cf-4409-a9f7-55f3f33a213e")
 		)
 		(embedded_fonts no)
-		(model "../../libs/3dmodels/M20-9990246.step"
+		(model "../../libs/3dmodels/jumper_header.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10321,7 +10321,7 @@
 			)
 		)
 	)
-	(footprint "tinynav:HARWIN_M20-9990246"
+	(footprint "tinynav:jumper_header"
 		(layer "F.Cu")
 		(uuid "83db188c-1fd7-414c-895d-06c8d1bd39f6")
 		(at 143.6 86.4 -90)
@@ -10599,7 +10599,7 @@
 			(uuid "735cc833-04cc-41c0-9746-cbdf0f3db597")
 		)
 		(embedded_fonts no)
-		(model "../../libs/3dmodels/M20-9990246.step"
+		(model "../../libs/3dmodels/jumper_header.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14782,7 +14782,7 @@
 			)
 		)
 	)
-	(footprint "tinynav:HARWIN_M20-9990246"
+	(footprint "tinynav:jumper_header"
 		(layer "F.Cu")
 		(uuid "bcbc0697-42f6-4dae-9596-a660b423c4bc")
 		(at 165.8 87.2)
@@ -15060,7 +15060,7 @@
 			(uuid "cd81a39e-60cb-4616-a7f8-7990a05e9cf7")
 		)
 		(embedded_fonts no)
-		(model "../../libs/3dmodels/M20-9990246.step"
+		(model "../../libs/3dmodels/jumper_header.step"
 			(offset
 				(xyz 0 0 0)
 			)
