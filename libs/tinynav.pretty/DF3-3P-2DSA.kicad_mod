@@ -1,0 +1,118 @@
+(footprint "DF3-3P-2DSA"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c5a71ad7-27e0-4ed0-ac4a-b074b06f3a75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DF3-3P-2DSA"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "18921020-ce9b-4522-aedd-5ede14e57b2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c46d2a0-a5ff-4d9a-88f1-f949604b6d05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39f5b770-d09c-4453-aa9d-3e14c42efd1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -4.05 -3.55)
+		(end 4.05 1.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0d2a062a-3e44-476b-811b-c38450d15653")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ff88c92c-fd04-49a7-9d76-d09a2a92a6e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -2 0)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "0631d62e-81c7-4e3e-a6e6-40eeab1a7b90")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "10d02543-e566-4d6b-9f8e-722eb1ec55cd")
+	)
+	(pad "3" thru_hole circle
+		(at 2 0)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e947c4d1-fd2d-4455-be83-04aadb3a448e")
+	)
+	(embedded_fonts no)
+	(model "../../libs/3dmodels/DF3-3P-2DSA.stp"
+		(offset
+			(xyz 0.5 11 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
